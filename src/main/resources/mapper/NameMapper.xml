@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huafei.mapper.NameMapper">
+
+    <resultMap id="BaseResultMap" type="com.huafei.entity.Name">
+            <id property="name_id" column="name_id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="zhanghao" column="zhanghao" jdbcType="VARCHAR"/>
+            <result property="mima" column="mima" jdbcType="VARCHAR"/>
+            <result property="sex" column="sex" jdbcType="VARCHAR"/>
+            <result property="years" column="years" jdbcType="INTEGER"/>
+            <result property="phone" column="Phone" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        name_id,name,zhanghao,
+        mima,sex,years,
+        Phone
+    </sql>
+</mapper>

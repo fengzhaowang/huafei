@@ -1,0 +1,89 @@
+#body {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    background-image: url(../image/image1.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-size: 100% 100%;
+    position: relative;
+}
+.top-form{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+.bottom-form{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    margin-left: 15%;
+    margin-top: 74%;
+}
+.top-form-1{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.top-form-2{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 25%;
+}
+.bottom-form-1{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.top-form-1-title{
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    height: 100%;
+    line-height: 50px;
+}
+.top-form-1-text{
+    position: absolute;
+    width: 55%;
+    text-align: left;
+    height: 50%;
+    margin-left: 30%;
+    border: 1px solid black;
+    margin-top: 2.5%;
+}
+.top-form-1-button{
+    position: absolute;
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 87%;
+    margin-top: 2%;
+    border-radius: 8px;
+    border: none;
+}
+.bottom-form-1-text{
+    position: absolute;
+    width: 55%;
+    text-align: left;
+    height: 50%;
+    border: 1px solid black;
+    margin-top: 2.5%;
+}
+.bottom-form-1-button{
+    position: absolute;
+    width: 19%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 58%;
+    margin-top: 1.5%;
+    border-radius: 8px;
+    border: none;
+}

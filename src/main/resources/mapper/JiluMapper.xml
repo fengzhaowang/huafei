@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huafei.mapper.JiluMapper">
+
+    <resultMap id="BaseResultMap" type="com.huafei.entity.Jilu">
+            <id property="jilu_id" column="jilu_id" jdbcType="INTEGER"/>
+            <result property="name_id" column="name_id" jdbcType="INTEGER"/>
+            <result property="zhong" column="zhong" jdbcType="INTEGER"/>
+            <result property="qian" column="qian" jdbcType="INTEGER"/>
+            <result property="end" column="end" jdbcType="INTEGER"/>
+            <result property="time" column="time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        jilu_id,name_id,zhong,
+        qian,end,time
+    </sql>
+</mapper>

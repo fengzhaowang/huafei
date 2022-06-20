@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huafei.mapper.HuafeiMapper">
+
+    <resultMap id="BaseResultMap" type="com.huafei.entity.Huafei">
+            <id property="huafei_id" column="huafei_id" jdbcType="INTEGER"/>
+            <result property="name_id" column="name_id" jdbcType="INTEGER"/>
+            <result property="yue" column="yue" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        huafei_id,name_id,yue
+    </sql>
+</mapper>

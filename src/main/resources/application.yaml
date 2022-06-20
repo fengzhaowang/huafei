@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: huafei
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hmdp?useSSL=false&serverTimezone=UTC
+    username: root
+    password: a123456789*
+  jackson:
+    default-property-inclusion: non_null
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+mybatis-plus:
+  type-aliases-package: com.huafei.entity
+logging:
+  level:
+    com.hmdp: debug
+  pattern:
+    dateformat: mm:ss.SSS

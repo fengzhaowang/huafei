@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huafei.mapper.JifenMapper">
+
+    <resultMap id="BaseResultMap" type="com.huafei.entity.Jifen">
+            <id property="jifen_id" column="jifen_id" jdbcType="INTEGER"/>
+            <result property="name_id" column="name_id" jdbcType="INTEGER"/>
+            <result property="jifen" column="jifen" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        jifen_id,name_id,jifen
+    </sql>
+</mapper>
